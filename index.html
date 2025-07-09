@@ -4,67 +4,107 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Plae Creative Studio</title>
+  <meta name="description" content="Plae Creative Studio helps bold brands grow with digital storytelling, design, and social media strategy. Based in Lagos, working globally.">
+  <meta property="og:title" content="Plae Creative Studio">
+  <meta property="og:description" content="Structure Meets Story. Strategy Meets Soul.">
+  <meta property="og:image" content="https://your-site.com/preview.jpg">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Plae Creative Studio</h1>
-    <p class="tagline">Structure Meets Story</p>
-    <a href="https://wa.me/2349155731215" class="cta">Chat on WhatsApp</a>
+    <div class="nav-container">
+      <img src="logo.png" alt="Plae Creative Studio Logo" class="logo">
+      <button class="menu-toggle">☰</button>
+      <nav>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="container">
+      <h1>Plae Creative Studio</h1>
+      <p class="tagline">Structure Meets Story. Strategy Meets Soul.</p>
+      <a href="https://wa.me/2349155731215" class="cta">Chat on WhatsApp</a>
+    </div>
   </header>
-  <section id="about">
-    <section id="about">
-‎  <h2>About</h2>
-‎  <p>Hi, I'm Paschal — Co-founder and Lead Creative at Plae Creative Studio, where structure meets story. With a background in engineering, marketing, and operations, I lead a dynamic team helping modern brands show up boldly, strategically, and memorably—both online and offline—through strategy, storytelling, and design.</p>
-  ‎</section>
-  <section id="services">
-‎  <h2>Services</h2>
-‎  <ul>
-‎    <li><strong>Starter:</strong> Perfect for solo pros kickstarting their digital presence — includes 3 platforms, a content plan, and basic graphics.</li>
-‎    <li><strong>Growth:</strong> Ideal for growing businesses — includes everything in Starter plus insights, ad setup, and strategy calls.</li>
-‎    <li><strong>Premium:</strong> Built for digital domination — includes everything in Growth plus a branding audit and lead generation strategy.</li>
-‎    <li><em>Add-ons:</em> Flyers, WhatsApp marketing, and content calendars available on request.</li>
-‎  </ul>
-  ‎</section>
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <div class="project">
-      <h3>Frangipani Group & FCBS</h3>
-      <p>Full strategic planning, internship landing page, branding updates, and social media rollout for a business school in Nigeria.</p>
-    </div>
-    <div class="project">
-      <h3>Franclean Nigeria Limited</h3>
-      <p>Corporate branding, visual identity, and verification systems for a hygiene and facility management company.</p>
-    </div>
-    <div class="project">
-      <h3>Maid in Lekki</h3>
-      <p>Creative web copywriting and design layout for a cleaning service startup targeting luxury apartments.</p>
-    </div>
-  </section>
-  <section id="testimonials">
-    <h2>Testimonials</h2>
-    <blockquote>
-      "Plae Creative helped us gain structure and clarity online. Paschal’s process is seamless, strategic, and deeply thoughtful."
-    </blockquote>
-    <blockquote>
-      "A game-changer for our small business. The branding and social media strategy worked wonders."
-    </blockquote>
-  </section>
-  <section id="contact">
-    <h2>Contact</h2>
-    <form action="contact.php" method="POST">
-      <label>Name:</label>
-      <input type="text" name="name" required />
-      <label>Email:</label>
-      <input type="email" name="email" required />
-      <label>Message:</label>
-      <textarea name="message" rows="4" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    <p>or <a href="https://wa.me/2349155731215">message us on WhatsApp</a></p>
-  </section>
+
+  <main>
+    <section id="hero" data-aos="fade-up">
+      <h2>Bold African Creativity Meets Global Brand Strategy</h2>
+      <p>We help purpose-driven brands grow, connect, and convert — from Lagos to London.</p>
+      <a href="#contact" class="cta">Start Your Project</a>
+    </section>
+
+    <section id="about" data-aos="fade-up">
+      <h2>About</h2>
+      <p>Paschal leads Plae Creative Studio with a rare fusion of engineering precision, creative storytelling, and international perspective — helping brands grow confidently in today’s digital jungle.</p>
+    </section>
+
+    <section id="services" data-aos="fade-up">
+      <h2>Services</h2>
+      <ul>
+        <li><strong>Starter:</strong> Digital launch pack — 3 platforms, basic graphics, content plan.</li>
+        <li><strong>Growth:</strong> All from Starter + strategy calls, ad setup, and monthly insights.</li>
+        <li><strong>Premium:</strong> Built for domination — branding audit, lead generation, optimization.</li>
+        <li><em>Add-ons:</em> Flyers, WhatsApp automation, content calendars, audits.</li>
+      </ul>
+    </section>
+
+    <section id="portfolio" data-aos="fade-up">
+      <h2>Portfolio</h2>
+      <div class="project">
+        <h3>Frangipani Group & FCBS</h3>
+        <p>Strategic planning, internship landing page, branding refresh, and social rollout for a business school in Nigeria.</p>
+      </div>
+      <div class="project">
+        <h3>Franclean Nigeria Limited</h3>
+        <p>Corporate branding and digital verification system for a facility hygiene company.</p>
+      </div>
+      <div class="project">
+        <h3>Maid in Lekki</h3>
+        <p>Creative copywriting and web design for a startup cleaning agency targeting luxury apartments.</p>
+      </div>
+    </section>
+
+    <section id="testimonials" data-aos="fade-up">
+      <h2>Testimonials</h2>
+      <blockquote>
+        "Plae Creative helped us gain structure and clarity online. Paschal’s process is seamless, strategic, and deeply thoughtful."
+      </blockquote>
+      <blockquote>
+        "A game-changer for our small business. The branding and social media strategy worked wonders."
+      </blockquote>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+      <h2>Contact</h2>
+      <form action="contact.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p>or <a href="https://wa.me/2349155731215">message us on WhatsApp</a></p>
+    </section>
+  </main>
+
   <footer>
-    <p>&copy; 2025 Plae Creative Studio · Lagos, Nigeria</p>
+    <p>&copy; 2025 Plae Creative Studio · Lagos, Nigeria · Bold Africa, Global Reach</p>
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('nav').classList.toggle('open');
+    });
+  </script>
 </body>
 </html>
