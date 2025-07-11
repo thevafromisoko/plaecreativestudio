@@ -100,20 +100,16 @@
     </section>
 
     <section id="opt-in" data-aos="fade-up">
-      <h2>🎁 Free Download</h2>
-      <p>Want to build a bold brand? Get our <strong>free PDF checklist</strong>: <em>“5 Things Every Bold Brand Needs Online”</em></p>
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <label for="email">Your email:</label>
-        <input type="email" name="email" id="email" required />
-        <button type="submit">Download the Checklist</button>
-      </form>
-      <script>
-  document.querySelector("form").addEventListener("submit", function(e) {
-    setTimeout(() => {
-      window.location.href = "checklist.pdf"; // Your file path
-    }, 1000); // Give Formspree time to capture before redirect
-  });
-</script>
+  <h2>🎁 Free Download</h2>
+  <p>Want to build a bold brand? Get our <strong>free PDF checklist</strong>: <em>“5 Things Every Bold Brand Needs Online”</em></p>
+
+  <form action="https://formsubmit.co/studioplae@gmail.com" method="POST">
+    <input type="email" name="email" placeholder="Your Email" required />
+    <input type="hidden" name="_subject" value="Checklist Download" />
+    <input type="hidden" name="_next" value="checklist.pdf" />
+    <input type="hidden" name="_captcha" value="false" />
+    <button type="submit">Download the Checklist</button>
+  </form>
     </section>
 
     <section id="contact" data-aos="fade-up">
